@@ -11,7 +11,7 @@ import 'package:lab3_201084/notifications.dart';
 class GoogleMaps extends StatefulWidget {
   static const String id = "googleMaps";
   final List<Exam> _list;
-  static String API_KEY = "AIzaSyA2HqPUM-GfVvfYE46hFfPL_KoNPa2wMxA";
+  static String API_KEY = "MY_API_KEY";
   const GoogleMaps(this._list, {super.key});
 
   @override
